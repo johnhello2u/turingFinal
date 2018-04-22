@@ -1,0 +1,75 @@
+
+/*sign up page css below*/
+
+.sign_up_form {
+  position: relative;
+  text-align: center;
+  height: 150px;
+  padding-top: 14%;
+
+}
+
+
+
+.outside_box_signup {
+  background-color: hsla(8, 450%, 60%, 1.30);
+  height: 26em;
+  width: 21em;
+  margin: auto;
+  padding: auto;
+  border-radius: 3px;
+  transition: height 5s;
+}
+
+
+.outside_box_signup .active{
+  background-color: black;
+}
+
+
+
+.signup_form {
+  position: relative;
+  text-align: center;
+  padding-top: 13%;
+}
+
+
+
+.signup_form_inside {
+  font-size: 1.2em;
+
+}
+
+
+.signup_form_button {
+  margin: 0;
+  height: 2.5em;
+  width: 6.8em;
+  padding:0;
+  background:transparent;
+  background-color: lightblue;
+  border:0;
+  font-family: inherit;
+  font-size: 0.8em;
+  cursor: pointer;
+  position: relative;
+  margin-top: 1em;
+  border-radius: 1px;
+  transition: width 300ms;
+  -webkit-transition: width 300ms;
+}
+
+.signup_form_button:hover {
+  cursor: pointer;
+  color: white;
+  width: 8.5em;
+}
+
+
+
+p {
+  text-align: center;
+  font-size: 2em;
+  position: relative;
+}

@@ -1,0 +1,42 @@
+/*properties for a links in navbar*/
+div nav ul li a{
+      text-decoration: none;
+      color: inherit;
+      display: inline-block;
+      height:inherit;
+      width: inherit;
+      padding: 1.2em;
+}
+
+
+/*below 2 are propertiesfor the navbar (small/big) */
+div nav ul li{
+      display: inline-block;
+
+}
+
+
+div nav ul li:hover{
+      background-color:grey;
+}
+
+/* style for big nav bar*/
+div nav ul{
+      background-color:rgb(246, 74, 74);
+      overflow: hidden; /* it doesn't show by default only when cliked*/
+      color: white;
+      padding: 0;
+      text-align: center;
+      margin: 0;
+      text-decoration: none;
+      -webkit-transition: max-height 0.4s;
+      -ms-transition: max-height 0.4s;
+      -moz-transition: max-height 0.4s;
+      -o-transition: max-height 0.4s;
+      transition: max-height 0.4s;
+
+}
+
+body {
+  margin: 0;
+}
