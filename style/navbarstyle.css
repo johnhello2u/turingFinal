@@ -1,3 +1,20 @@
+.logo {
+ display: block;
+ width: 100%;
+ box-sizing: border-box;
+ max-height: 1000px;
+}
+
+.logo-icon {
+  display: inherit;
+  margin: auto;
+  padding: inherit;
+
+}
+
+
+
+
 /*properties for a links in navbar*/
 div nav ul li a{
       text-decoration: none;

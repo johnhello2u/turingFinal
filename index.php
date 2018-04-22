@@ -5,6 +5,8 @@
     <title>main</title>
     <link rel="stylesheet" href="style/style.css">
   </head>
+
+
   <?php include 'other/navbar.php'; ?>
 
   <body>

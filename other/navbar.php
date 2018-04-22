@@ -8,6 +8,10 @@
   <body>
 
 
+    <div class="logo">
+      <img class="logo-icon" src="images/logo.tif" alt="logo-icon" width="180" height="180"/>
+    </div>
+
     <div class="nav-bar">
       <nav>
         <div class="handle">
