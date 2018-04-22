@@ -1,5 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>main</title>
 
-echo "yo dude";
-echo "ok";
- ?>
+    <link rel="stylesheet" href="stylesheet/style.css">
+  </head>
+  <body>
+
+  </body>
+</html>
