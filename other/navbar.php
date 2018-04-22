@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="stylesheet/navbarStyle.css">
+    <link rel="stylesheet" href="style/navbarstyle.css">
   </head>
   <body>
+
 
     <div class="nav-bar">
       <nav>
