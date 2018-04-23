@@ -18,9 +18,17 @@
           <div class="icon"><div class="hamburger-menu"></div></div>
         </div>
         <ul id="nav-ul">
-          <li> <a href="#">home</a> </li>
-          <li> <a href="#">friends</a></li>
-          <li> <a href="#">settings</a></li>
+          <li class = "navlist"> <a href="#">home</a> </li>
+          <li class = "navlist"> <a href="#">friends</a></li>
+          <li class = "navlist"> <a href="#">settings</a></li>
+
+        <li>
+        <form>
+            <input class ='login_form' type="text" name="uid" placeholder="Username">
+            <input class ='login_form' type="password" name="pwd" placeholder="Password">
+            <button class ='login_form_button' type="submit">LOGIN</button>
+          </form>
+        </li>
         </ul>
       </nav>
     </div>
