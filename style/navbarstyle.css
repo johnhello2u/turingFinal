@@ -13,10 +13,13 @@
 }
 
 
+.login_form {
+
+}
 
 
 /*properties for a links in navbar*/
-div nav ul li a{
+div nav ul li{
       text-decoration: none;
       color: inherit;
       display: inline-block;
@@ -32,10 +35,22 @@ div nav ul li{
 
 }
 
-
-div nav ul li:hover{
+/* when mouse hovers over  */
+div nav ul li a :hover{
       background-color:grey;
 }
+
+
+
+/* style for login form in navbar index page */
+.login_form {
+    border-radius: 10px;
+    border-style:none;
+    height: 20px;
+    width: 200px;
+}
+
+
 
 /* style for big nav bar*/
 div nav ul{
