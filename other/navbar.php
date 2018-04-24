@@ -26,7 +26,7 @@
         <form>
             <input class ='login_form' type="text" name="uid" placeholder="Username">
             <input class ='login_form' type="password" name="pwd" placeholder="Password">
-            <button class ='login_form_button' type="submit">LOGIN</button>
+            <button class ='login_form' type="submit">LOGIN</button>
           </form>
         </li>
         </ul>

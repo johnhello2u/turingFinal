@@ -19,7 +19,7 @@
 
 
 /*properties for a links in navbar*/
-div nav ul li{
+div nav ul li a {
       text-decoration: none;
       color: inherit;
       display: inline-block;
@@ -35,8 +35,8 @@ div nav ul li{
 
 }
 
-/* when mouse hovers over  */
-div nav ul li a :hover{
+/* when mouse  */
+.navlist :hover{
       background-color:grey;
 }
 
