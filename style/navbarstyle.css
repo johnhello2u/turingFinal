@@ -53,7 +53,7 @@ div nav ul li a :hover{
 
 
 /* style for big nav bar*/
-div nav ul{
+.navbar {
       background-color:rgb(246, 74, 74);
       overflow: hidden; /* it doesn't show by default only when cliked*/
       color: white;
