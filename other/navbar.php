@@ -28,9 +28,31 @@
             </li>
           </ul>
 
+<<<<<<< HEAD
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+=======
+    <div class="logo">
+      <img class="logo-icon" src="images/logo.tif" alt="logo-icon" width="180" height="180"/>
+    </div>
+
+    <div class="nav-bar">
+      <nav>
+        <div class="handle">
+          <div class="icon"><div class="hamburger-menu"></div></div>
+        </div>
+        <ul id="nav-ul">
+          <li class = "navlist"> <a href="#">home</a> </li>
+          <li class = "navlist"> <a href="#">friends</a></li>
+          <li class = "navlist"> <a href="#">settings</a></li>
+
+        <li>
+        <form>
+            <input class ='login_form' type="text" name="uid" placeholder="Username">
+            <input class ='login_form' type="password" name="pwd" placeholder="Password">
+            <button class ='login_form' type="submit">LOGIN</button>
+>>>>>>> f9c6d431385c83882c4577963a80998dd2ddb1bd
           </form>
         </div>
       </nav>
