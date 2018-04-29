@@ -27,11 +27,17 @@
               <a class="nav-link" href="#">Friends</a>
             </li>
           </ul>
+<<<<<<< HEAD
 
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 
+=======
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+>>>>>>> c8328e739146310c67672c7664abe904fd213cc9
           </form>
         </div>
       </nav>
