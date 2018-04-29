@@ -29,31 +29,13 @@
               <a class="nav-link" href="#">Friends</a>
             </li>
           </ul>
-<<<<<<< HEAD
 
-
-
-=======
-<<<<<<< HEAD
->>>>>>> d407b35c0ad2fb5cc19e2bd2a1c81141d136319f
 
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> d407b35c0ad2fb5cc19e2bd2a1c81141d136319f
 
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-<<<<<<< HEAD
 
-    <div class="logo">
-      <img class="logo-icon" src="images/logo.tif" alt="logo-icon" width="180" height="180"/>
-    </div>
 
     <div class="nav-bar">
       <nav>
@@ -66,21 +48,7 @@
           <li class = "navlist"> <a href="#">settings</a></li>
 
         <li>
-        <form>
-            <input class ='login_form' type="text" name="uid" placeholder="Username">
-            <input class ='login_form' type="password" name="pwd" placeholder="Password">
-            <button class ='login_form' type="submit">LOGIN</button>
 
-=======
-
-=======
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
->>>>>>> c8328e739146310c67672c7664abe904fd213cc9
->>>>>>> 700334a3663d01efcc9ba31b3356828379b781a9
->>>>>>> d407b35c0ad2fb5cc19e2bd2a1c81141d136319f
-          </form>
         </div>
       </nav>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
