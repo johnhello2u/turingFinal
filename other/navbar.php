@@ -8,6 +8,7 @@
   </head>
   <body>
 
+
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
           <img src="images/logo.jpg" width="55" height="55" alt="">
@@ -21,7 +22,7 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Settings</a>
+              <a class="nav-link" href="#">Setting</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Friends</a>

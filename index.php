@@ -11,7 +11,7 @@
   <?php include 'other/navbar.php'; ?>
 
   <body>
-
+<br>
 <br>
 <br>
 <form>
