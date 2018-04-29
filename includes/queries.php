@@ -23,4 +23,26 @@ class users {
 
 }
 
+class tweets {
+  public function fetch_all() {
+    global $pdo;
+
+    $query = $pdo->prepare("SELECT * from tweets");
+    $query->execute();
+
+    return $query->fetchALL();
+
+  }
+
+  public function fetch_data($id) {
+    global $pdo;
+
+    $query = $pdo->prepare("SELECT * from tweets WHERE id=?");
+    $query->bindValue(1, $id);
+    $query->execute();
+
+    return $query->fetch();
+  }
+}
+
 ?>
