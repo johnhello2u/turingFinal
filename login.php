@@ -22,6 +22,7 @@ if (isset($_POST['login'])) {
 		foreach ($result as $res) {
 			if ($res['password'] == $pass && $res['username'] == $user ) {
 				header('Location: test.php');
+
 }
 			else {
 				echo "Cant Login";
