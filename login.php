@@ -21,12 +21,20 @@ if (isset($_POST['login'])) {
 		$result = mysqli_query($connect,"SELECT * FROM users");
 		foreach ($result as $res) {
 			if ($res['password'] == $pass && $res['username'] == $user ) {
+<<<<<<< HEAD
 				header('Location: test.php');
+=======
+				header("location:test.php");
+>>>>>>> 3535e0172d1643714745fed3561a90ea98f58e30
 }
 			else {
 				echo "Cant Login";
 }
+<<<<<<< HEAD
 
+=======
+			
+>>>>>>> 3535e0172d1643714745fed3561a90ea98f58e30
 }
 }
 }

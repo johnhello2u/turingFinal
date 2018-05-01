@@ -20,9 +20,24 @@
 <!--    <input class ='login_form_button' type="submit" value='LOGIN' name='login'> -->
 	<button class ='login_form_button' type="submit" value='login' name='login'>LOGIN</button>
 </form>
+<<<<<<< HEAD
 </br>
 </br>
 <h6><a href="signup.php">Sign up</a> if you don't have an account.</h6>
+=======
+    <div class="outside_box_signup">
+    <form class='signup_form' action="signup_connect_sql.php" method="POST">
+        <input class ='signup_form_inside' type="text" name="first" placeholder="Firstname"><br><br />
+        <input class ='signup_form_inside' type="text" name="last" placeholder="Lastname"><br><br />
+        <input class ='signup_form_inside' type="text" name="uid" placeholder="Username"><br><br />
+
+        <input class ='signup_form_inside' type="text" name="email" placeholder="Email"><br><br />
+
+        <input class ='signup_form_inside' type="password" name="pwd" placeholder="Password"><br><br />
+        <input class ='signup_form_button' type="submit" value='SIGNUP' name='signup'>
+    </form>
+    </div>
+>>>>>>> 3535e0172d1643714745fed3561a90ea98f58e30
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
