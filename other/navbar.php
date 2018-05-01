@@ -11,6 +11,7 @@
 
 
       <nav class="navbar navbar-expand-lg navbar-light">
+
         <a class="navbar-brand" href="#">
           <img src="images/logo111.gif" width="100" height="100" alt="">
         </a>
@@ -23,20 +24,12 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
 
-
-    <div class="nav-bar">
-      <nav>
-        <div class="handle">
-          <div class="icon"><div class="hamburger-menu"></div></div>
-        </div>
         <ul id="nav-ul">
+
           <li class = "navlist"> <a href="index.php">home</a> </li>
           <li class = "navlist"> <a href="#">Sign up</a></li>
           <li class = "navlist"> <a href="#">B</a></li>
 
-        <li>
-
-        </div>
       </nav>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>

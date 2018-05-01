@@ -81,9 +81,6 @@ p {
 
 
 
-
-
-
 .listtweet {
   width: 400px;
   height: 100px;
@@ -123,7 +120,6 @@ p {
 
 .form_button:hover {
   width: 150px;
-
 
   transition: width 300ms;
   -webkit-transition: width 300ms;

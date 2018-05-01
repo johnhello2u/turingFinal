@@ -13,44 +13,34 @@
 }
 
 
-.login_form {
-
-}
-
-
 /*properties for a links in navbar*/
-div nav ul li a {
+nav ul li a {
       text-decoration: none;
       color: inherit;
       display: inline-block;
       height:inherit;
-      width: inherit;
+      width:inherit;
+      margin:10px 10px;
       padding: 1.2em;
-}
+    }
 
+    nav ul li a:hover, nav ul li a:focus, nav ul li a:active {
+      color: #18BC9C;
+      background-color: transparent;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
 
 /*below 2 are propertiesfor the navbar (small/big) */
-div nav ul li{
+nav ul li{
       display: inline-block;
-
 }
 
 /* when mouse  */
 .navlist :hover{
-      background-color:grey;
+      background-color:green;
 }
-
-
-
-/* style for login form in navbar index page */
-.login_form {
-    border-radius: 10px;
-    border-style:none;
-    height: 20px;
-    width: 200px;
-}
-
-
 
 /* style for big nav bar*/
 .navbar {

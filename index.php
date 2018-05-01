@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>main</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   </head>
@@ -11,9 +12,9 @@
   <?php include 'other/navbar.php'; ?>
 
   <body>
-<br>
-<br>
-<br>
+    <div class="container">
+    <div class="row justify-content-md-center">
+
 
 
 <div class="outside_login">
@@ -28,10 +29,14 @@
 </div>
 
 </div>
-
-</br>
-</br>
-<h6><a href="signup.php">Sign up</a> if you don't have an account.</h6>
+        <div class="col-md-auto">
+          <br>
+          <br>
+          <br>
+          <a href="signup.php">Sign up</a> if you don't have an account.
+        </div>
+    </div>
+  </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
