@@ -14,12 +14,14 @@
 <br>
 <br>
 <br>
-<form action="login.php" method="POST">
-    <input class ='login_form' type="text" name="uid" placeholder="Username">
-    <input class ='login_form' type="password" name="pwd" placeholder="Password">
+
+<form action="login.php" method="post">
+    <input class ='login_form' type="text" name="usern" placeholder="Username">
+    <input class ='login_form' type="password" name="pass" placeholder="Password">
 <!--    <input class ='login_form_button' type="submit" value='LOGIN' name='login'> -->
 	<button class ='login_form_button' type="submit" value='login' name='login'>LOGIN</button>
 </form>
+
 </br>
 </br>
 <h6><a href="signup.php">Sign up</a> if you don't have an account.</h6>

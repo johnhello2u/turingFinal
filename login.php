@@ -1,36 +1,45 @@
-<?php
-include_once('database.php');
+<?php require_once('database.php'); ?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>user page</title>
+  </head>
+  <body>
 
-if (isset($_POST['login'])) {
-        $user = $_POST['uid'];
-        $pass = $_POST['pwd'];
-	$pass = sha1($pass);
+    <?php include 'other/navbar.php'; ?>
 
-        if (empty($user)  || empty($pass)) {
 
-        if (empty($user)){
-                echo "<font color='red'>Username field is empty.</font><br/>";
-        }
+    <!-- this is here checks if the user and pass are set (has nothing to do with below) -->
+    <?php  if (!isset($_POST['usern']) || !isset($_POST['pass'])) {
+        die('Illigal operation');
+    }
 
-        if (empty($pass)){
-                echo "<font color='red'>Password field is empty.</font><br/>";
-        }
-}
-        else {
+    $user = $_POST['usern'];
+    $pass = sha1($_POST['pass']);
 
-		$result = mysqli_query($connect,"SELECT * FROM users");
-		foreach ($result as $res) {
-			if ($res['password'] == $pass && $res['username'] == $user ) {
-				header('Location: test.php');
 
->>>>>>> fb93d0a0d7849fd4a41071dc70954a56d72fb83a
-}
-			else {
-				echo "Cant Login";
-}
+      $esc_user= escape_this_string($user);
+      $esc_password = escape_this_string($pass);
 
->>>>>>> fb93d0a0d7849fd4a41071dc70954a56d72fb83a
-}
-}
-}
-?>
+    $connection;
+        $query = "SELECT * FROM users where username = '$esc_user' AND password = '$esc_password' ";
+        $id = fetch_record($query);
+    ?>
+
+      <?php   if($id) { ?>
+        <p>you are logged in motherfucker!!!</p>
+
+
+        <?php
+            } else { ?>
+                 "ERROR! Wrong username and password combination, go back and try again";
+                <?php echo $pass ?>
+        <?php
+            }
+        ?>
+
+
+
+  </body>
+</html>
