@@ -1,7 +1,7 @@
 <?php
 
 
-$connect = mysqli_connect("localhost", "root", "Luther&vanity?911","twitter");
+$connect = mysqli_connect("localhost", "root", " ","twitter");
 if ($connect) {
 	echo "Conncetion Successful !!! ";
 }
