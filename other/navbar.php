@@ -11,7 +11,7 @@
 
 
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
           <img src="images/logo.jpg" width="55" height="55" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,20 +23,15 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
 
-
-    <div class="nav-bar">
-      <nav>
         <div class="handle">
           <div class="icon"><div class="hamburger-menu"></div></div>
         </div>
         <ul id="nav-ul">
-          <li class = "navlist"> <a href="#">home</a> </li>
-          <li class = "navlist"> <a href="#">friends</a></li>
-          <li class = "navlist"> <a href="#">settings</a></li>
+          <li class = "nav-item"> <a class="nav-link" href="login.php">home</a> </li>
+          <li class = "nav-item"> <a class="nav-link" href="#">following</a></li>
+          <li class = "nav-item"> <a class="nav-link" href="#">settings</a></li>
 
         <li>
-
-        </div>
       </nav>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
