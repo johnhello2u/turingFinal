@@ -12,7 +12,7 @@
 
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.php">
-          <img src="images/logo.jpg" width="55" height="55" alt="">
+          <img src="images/logo.jpg" width="70" height="70" style="border-radius: 50%;margin:0px 15px;" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
 
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
           </form>
 
         <div class="handle">

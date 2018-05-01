@@ -1,10 +1,17 @@
-<?php require_once('database.php'); ?>
+<?php
+
+session_start();
+
+require_once('database.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>user page</title>
     <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
 
@@ -29,26 +36,33 @@
     ?>
 
       <?php   if($id) { ?>
-        <p>you are logged in motherfucker!!!</p>
-
+        <?php $_SESSION['user'] = $esc_user; ?>
 
         <?php
-            } else { ?>
-                 "ERROR! Wrong username and password combination, go back and try again";
-                <?php echo $pass ?>
-        <?php
+            } else {
+             "ERROR! Wrong username and password combination, please try again";
             }
         ?>
 
         <div class="container">
         <div class="row justify-content-md-center">
-            <div class="col col-lg-2">
-              1 of 3
+            <div class="col">
+            </br></br>
+              <?php
+              if(isset($_SESSION['user'])) { ?>
+                <h5 style="color:red;">Welcome, <?php echo $_SESSION['user']; ?>.</h5>
+            <?php  }
+               ?>
             </div>
-            <div class="col-md-auto">
-              Variable width content
+            <div class="col-md-6">
+              <h1>Dragonweets</h1>
+                  <ul style="list-style-type: none;">
+                    <?php foreach(fetch_all("SELECT tweet FROM tweets ;") as $wetwet): ?>
+                    <li style="list-style-type: none;"><div class= "listtweet"><?php echo $wetwet['tweet']; ?>  </div><br> </li>
+                    <?php endforeach; ?>
+                  </ul>
             </div>
-            <div class="col col-lg-2">
+            <div class="col">
               3 of 3
             </div>
         </div>

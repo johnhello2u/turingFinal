@@ -15,6 +15,7 @@
 
 /*properties for a links in navbar*/
 nav ul li a {
+      font-family: 'Ubuntu', 'Lato', sans-serif;
       text-decoration: none;
       color: inherit;
       display: inline-block;
@@ -25,7 +26,7 @@ nav ul li a {
     }
 
     nav ul li a:hover, nav ul li a:focus, nav ul li a:active {
-      color: #18BC9C;
+      color: green;
       background-color: transparent;
       -webkit-box-shadow: none;
       -moz-box-shadow: none;

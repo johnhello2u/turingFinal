@@ -4,7 +4,8 @@
 .sign_up_form {
   position: relative;
   text-align: center;
-  height: 150px;
+  height: 400px;
+  width: 300px;
   padding-top: 14%;
 
 }
@@ -42,13 +43,12 @@
 }
 
 
-.signup_form_button {
+.form-3 input[type=submit] {
   margin: 0;
   height: 2.5em;
   width: 6.8em;
   padding:0;
   background:transparent;
-  background-color: lightblue;
   border:0;
   font-size: 0.8em;
   cursor: pointer;
@@ -59,10 +59,10 @@
   -webkit-transition: width 300ms;
 }
 
-.signup_form_button:hover {
+.form-3 input[type=submit]:hover {
   cursor: pointer;
   color: white;
-  width: 8.5em;
+  width: 12em;
 }
 
 
@@ -85,7 +85,7 @@ h6 {
     /* Size and position */
     width: 300px;
     position: relative;
-    margin: 60px auto 30px;
+    margin: 40px auto 30px;
     padding: 10px;
     overflow: hidden;
 
@@ -148,13 +148,13 @@ h6 {
 .form-3 input[type=password]:focus {
     box-shadow: inset 0 0 2px #000;
     background: #494d54;
-    border-color: #51cbee;
+    border-color: green;
     outline: none; /* Remove Chrome outline */
 }
 
 .form-3 input[type=submit] {
     /* Width and position */
-    width: 100%;
+    width: 40%;
     padding: 8px 5px;
 
     /* Styles */
@@ -164,7 +164,7 @@ h6 {
         inset 0 1px 0 rgba(255,255,255,0.3),
         inset 0 10px 10px rgba(255,255,255,0.1);
     border-radius: 3px;
-    background: #ca1b1b;
+    background: #e63030;
     cursor:pointer;
 
     /* Font styles */
@@ -175,20 +175,6 @@ h6 {
     text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
 }
 
-.form-3 input[type=submit]:hover {
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
-}
-
-.form-3 input[type=submit]:active {
-    background: #212529;
-    box-shadow: inset 0 0 3px rgba(0,0,0,0.6);
-    border-color: #000; /* Fallback */
-    border-color: rgba(0,0,0,0.9);
-}
-
-.no-boxshadow .form-3 input[type=submit]:hover {
-    background: #2a92d8;
-}
 
 /* Gradient line */
 .form-3:after {
@@ -232,4 +218,23 @@ h6 {
     transform: rotate(75deg);
     background: linear-gradient(50deg, rgba(255,255,255,0.15), rgba(0,0,0,0));
     pointer-events: none;
+}
+
+nav a img {
+  margin-right: 20px;
+}
+
+.col-md-6 li {
+  border-radius: 7px;
+  margin-top: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  background-color: rgb(255, 140, 83);
+}
+
+.col-md-6 li:hover {
+  width: 450px;
+  transition: width 800ms;
+  -webkit-transition: width 800ms;
 }
