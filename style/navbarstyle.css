@@ -13,11 +13,6 @@
 }
 
 
-.login_form {
-
-}
-
-
 /*properties for a links in navbar*/
 nav ul li a {
       text-decoration: none;
@@ -46,18 +41,6 @@ nav ul li{
 .navlist :hover{
       background-color:green;
 }
-
-
-
-/* style for login form in navbar index page */
-.login_form {
-    border-radius: 10px;
-    border-style:none;
-    height: 20px;
-    width: 200px;
-}
-
-
 
 /* style for big nav bar*/
 .navbar {

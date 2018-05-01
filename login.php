@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>user page</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu" rel="stylesheet">
   </head>
   <body>
 
