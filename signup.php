@@ -1,7 +1,8 @@
 <?php
 
 include('other/navbar.php');
-echo 'hi';
+
+include_once('database.php');
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
