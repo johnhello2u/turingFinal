@@ -1,4 +1,10 @@
-<?php require_once('database.php'); ?>
+<?php
+
+session_start();
+
+require_once('database.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -29,26 +35,28 @@
     ?>
 
       <?php   if($id) { ?>
-        <p>you are logged in motherfucker!!!</p>
-
+        <?php $_SESSION['user'] = $esc_user; ?>
 
         <?php
-            } else { ?>
-                 "ERROR! Wrong username and password combination, go back and try again";
-                <?php echo $pass ?>
-        <?php
+            } else {
+             "ERROR! Wrong username and password combination, please try again";
             }
         ?>
 
         <div class="container">
         <div class="row justify-content-md-center">
-            <div class="col col-lg-2">
-              1 of 3
+            <div class="col">
+            </br></br>
+              <?php
+              if(isset($_SESSION['user'])) { ?>
+                <h5 style="color:red;">Welcome, <?php echo $_SESSION['user']; ?>.</h5>
+            <?php  }
+               ?>
             </div>
-            <div class="col-md-auto">
+            <div class="col-md-6">
               Variable width content
             </div>
-            <div class="col col-lg-2">
+            <div class="col">
               3 of 3
             </div>
         </div>
