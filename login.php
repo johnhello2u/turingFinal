@@ -23,11 +23,13 @@ if (isset($_POST['login'])) {
 			if ($res['password'] == $pass && $res['username'] == $user ) {
 				header('Location: test.php');
 
+>>>>>>> fb93d0a0d7849fd4a41071dc70954a56d72fb83a
 }
 			else {
 				echo "Cant Login";
 }
 
+>>>>>>> fb93d0a0d7849fd4a41071dc70954a56d72fb83a
 }
 }
 }
