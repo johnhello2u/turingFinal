@@ -28,13 +28,12 @@
     ?>
 
       <?php   if($id) { ?>
-        <p>you are logged in motherfucker!!!</p>
-
+        <p>you are now logged in</p>
+        <?php header('Location: userpage.php'); ?>
 
         <?php
             } else { ?>
                  "ERROR! Wrong username and password combination, go back and try again";
-                <?php echo $pass ?>
         <?php
             }
         ?>

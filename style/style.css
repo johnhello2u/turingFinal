@@ -11,6 +11,8 @@
 
 
 
+
+
 .outside_box_signup {
   background-color: hsla(8, 450%, 60%, 1.30);
   height: 26em;
@@ -71,4 +73,60 @@ p {
   text-align: center;
   font-size: 2em;
   position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+.listtweet {
+  width: 400px;
+  height: 100px;
+  border-radius: 7px;
+  margin-top: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  background-color: rgb(255, 140, 83);
+}
+
+.listtweet:hover {
+  width: 450px;
+  transition: width 800ms;
+  -webkit-transition: width 800ms;
+}
+
+
+
+.form_button {
+  margin: 0;
+  height: 50px;
+  width: 100px;
+  margin-left: 10px;
+  padding:0;
+  background:transparent;
+  background-color: lightblue;
+  border:0;
+  font-family: inherit;
+  font-size: 1.8em;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+  border-radius: 10px;
+
+}
+
+.form_button:hover {
+  width: 150px;
+
+
+  transition: width 300ms;
+  -webkit-transition: width 300ms;
+
+
 }
