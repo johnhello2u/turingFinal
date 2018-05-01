@@ -1,5 +1,5 @@
 <?php
-include('database.php');
+include_once('database.php');
 
 if (isset($_POST['signup'])) {
 	$first_name = $_POST['first'];
@@ -31,15 +31,15 @@ if (isset($_POST['signup'])) {
 }
 	else {
 
-	$output = mysqli_query($connect, "INSERT INTO users (first_name,last_name,username,email_address,password) VALUES('$first_name','$last_name','$user','$mail','$pass')");
+	$output = mysqli_query($connection, "INSERT INTO users (first_name,last_name,username,email_address,password) VALUES('$first_name','$last_name','$user','$mail','$pass')");
 	echo "success";
- mysqli_query($connect,$output);	
+ mysqli_query($connection,$output);
 }
 
 }
 
 
-$result = mysqli_query($connect,"SELECT * FROM users");
+$result = mysqli_query($connection,"SELECT * FROM users");
                 foreach ($result as $res) {
 			echo $res['username']."</br>";
 		}
