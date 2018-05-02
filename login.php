@@ -55,12 +55,16 @@ require_once('database.php');
                ?>
             </div>
             <div class="col-md-6">
+<<<<<<< HEAD
               <h1>Dragonweets</h1>
                   <ul style="list-style-type: none;">
                     <?php foreach(fetch_all("SELECT tweet FROM tweets ;") as $wetwet): ?>
                     <li style="list-style-type: none;"><div class= "listtweet"><?php echo $wetwet['tweet']; ?>  </div><br> </li>
                     <?php endforeach; ?>
                   </ul>
+=======
+              Variable width content
+>>>>>>> 55a8e6702f9b739f53236c76007da484c14997ff
             </div>
             <div class="col">
               3 of 3

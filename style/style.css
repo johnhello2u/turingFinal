@@ -223,6 +223,7 @@ h6 {
 nav a img {
   margin-right: 20px;
 }
+<<<<<<< HEAD
 
 .col-md-6 li {
   border-radius: 7px;
@@ -238,3 +239,5 @@ nav a img {
   transition: width 800ms;
   -webkit-transition: width 800ms;
 }
+=======
+>>>>>>> 55a8e6702f9b739f53236c76007da484c14997ff
