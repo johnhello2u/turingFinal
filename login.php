@@ -37,22 +37,24 @@ require_once('database.php');
 
       <?php   if($id) { ?>
         <?php $_SESSION['user'] = $esc_user; ?>
-
         <?php
             } else {
-             "ERROR! Wrong username and password combination, please try again";
+           die(header("location:index.php?loginFailed=true&reason=password"));
             }
         ?>
-
+        <?php
+        if(isset($_SESSION['user'])) { ?>
         <div class="container">
         <div class="row justify-content-md-center">
             <div class="col">
             </br></br>
-              <?php
-              if(isset($_SESSION['user'])) { ?>
+
                 <h5 style="color:red;">Welcome, <?php echo $_SESSION['user']; ?>.</h5>
-            <?php  }
-               ?>
+
+               <p class="clearfix">
+                   <a href="logout.php">Log Out</a>
+               </p>
+             </form>
             </div>
             <div class="col-md-6">
               <h1>Dragonweets</h1>
@@ -67,5 +69,7 @@ require_once('database.php');
             </div>
         </div>
         </div>
+      <?php  }
+         ?>
   </body>
 </html>

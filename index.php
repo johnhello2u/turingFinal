@@ -32,6 +32,7 @@
               <p class="clearfix">
                   <input type="submit" name="submit" value="Sign in">
               </p>
+              <?php $reasons = array("password" => "Wrong Username or Password", "blank" => "You have left one or more fields blank."); if ($_GET["loginFailed"]) echo $reasons[$_GET["reason"]]; ?>
           </form>
 
           </br>
