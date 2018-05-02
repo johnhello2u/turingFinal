@@ -16,13 +16,6 @@ require_once('database.php');
   <body>
 
     <?php include 'other/navbar.php'; ?>
-    <?php
-    if(isset($_GET['submit'])) {
-       $content = $_GET['content'];
-
-       $sql = mysqli_query($connection,"INSERT into tweets (tweet) VALUES ('$content')");
-       mysqli_query($connection, $sql);
-     } ?>
 
     <!-- this is here checks if the user and pass are set (has nothing to do with below) -->
     <?php  if (!isset($_POST['usern']) || !isset($_POST['pass'])) {
@@ -65,9 +58,9 @@ require_once('database.php');
             </div>
             <div class="col-md-6">
               <h1>Dragonweets</h1>
-                  <form action="login.php" method="GET">
-                    <textarea rows="3" cols="70" name="content" placeholder="Post your Dragonweet"></textarea></br>
-                    <input type="submit" value="Post"/>
+                  <form action="post_tweet.php" method="POST">
+                    <textarea rows="3" cols="70" name="content" placeholder="Post here"></textarea></br>
+                    <input type="submit" value="Post" name="post_tweet"/>
                   </form>
                   <ul style="list-style-type: none;">
                     <?php foreach(fetch_all("SELECT tweet FROM tweets ;") as $wetwet): ?>
