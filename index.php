@@ -33,7 +33,28 @@
           <br>
           <br>
           <br>
+<<<<<<< HEAD
           <a href="signup.php">Sign up</a> if you don't have an account.
+=======
+
+          <form class="form-3" action="login.php" method="post">
+              <p class="clearfix">
+                  <label for="login">Username</label>
+                  <input type="text" name="usern" id="login" placeholder="Username">
+              </p>
+              <p class="clearfix">
+                  <label for="password">Password</label>
+                  <input type="password" name="pass" id="password" placeholder="Password">
+              </p>
+              <p class="clearfix">
+                  <input type="submit" name="submit" value="Sign in">
+              </p>
+              <?php $reasons = array("password" => "Wrong Username or Password", "blank" => "You have left one or more fields blank."); if ($_GET["loginFailed"]) echo $reasons[$_GET["reason"]]; ?>
+          </form>
+
+          </br>
+          <h6><a href="signup.php">Sign up</a> if you don't have an account.</h6>
+>>>>>>> Wednesday
         </div>
     </div>
   </div>

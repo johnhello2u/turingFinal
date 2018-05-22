@@ -19,16 +19,29 @@ include_once('database.php');
 <br>
 <br>
 
-  <div class="outside_box_signup">
+  <div class="form-3">
     <form class='signup_form' action="signup_connect_sql.php" method="POST">
-        <input class ='signup_form_inside' type="text" name="first" placeholder="Firstname"><br><br />
-        <input class ='signup_form_inside' type="text" name="last" placeholder="Lastname"><br><br />
-        <input class ='signup_form_inside' type="text" name="uid" placeholder="Username"><br><br />
-
-        <input class ='signup_form_inside' type="text" name="email" placeholder="Email"><br><br />
-
-        <input class ='signup_form_inside' type="password" name="pwd" placeholder="Password"><br><br />
-        <input class ='signup_form_button' type="submit" value='SIGNUP' name='signup'>
+        <p class="clearfix">
+            <label for="first">First Name</label>
+            <input class ='signup_form_inside' type="text" name="first" id="first" placeholder="First Name">
+            <label for="last">Last Name</label>
+        <input class ='signup_form_inside' type="text" name="last" id="last" placeholder="Last Name">
+        </p>
+        <p class="clearfix">
+            <label for="username">Username</label>
+            <input class ='signup_form_inside' type="text" name="uid" id="username" placeholder="Username">
+        </p>
+        <p class="clearfix">
+            <label for="email">Email address</label>
+            <input class ='signup_form_inside' type="text" name="email" id="email" placeholder="Email">
+        </p>
+        <p class="clearfix">
+            <label for="password">Password</label>
+            <input class ='signup_form_inside' type="password" name="pwd" id="password" placeholder="Password">
+        </p>
+        <p class="clearfix">
+            <input class ='signup_form_button' type="submit" value='Sign Up' name='signup'>
+        </p>
     </form>
   </div>
 
