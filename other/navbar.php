@@ -11,14 +11,11 @@
 
 
       <nav class="navbar navbar-expand-lg navbar-light">
-<<<<<<< HEAD
+
 
         <a class="navbar-brand" href="#">
-          <img src="images/logo111.gif" width="100" height="100" alt="">
-=======
         <a class="navbar-brand" href="index.php">
           <img src="images/logo.jpg" width="70" height="70" style="border-radius: 50%;margin:0px 15px;" alt="">
->>>>>>> Wednesday
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

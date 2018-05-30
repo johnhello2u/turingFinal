@@ -29,13 +29,22 @@
 </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+
         <div class="col-md-auto">
           <br>
           <br>
           <br>
-<<<<<<< HEAD
+
           <a href="signup.php">Sign up</a> if you don't have an account.
-=======
 
           <form class="form-3" action="login.php" method="post">
               <p class="clearfix">
@@ -54,7 +63,6 @@
 
           </br>
           <h6><a href="signup.php">Sign up</a> if you don't have an account.</h6>
->>>>>>> Wednesday
         </div>
     </div>
   </div>

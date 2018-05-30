@@ -15,7 +15,7 @@ require_once('database.php');
   </head>
   <body>
 
-    <?php include 'other/navbar.php'; ?>
+    <?php include 'navbar.php'; ?>
 
     <!-- this is here checks if the user and pass are set (has nothing to do with below) -->
     <?php  if (!isset($_POST['usern']) || !isset($_POST['pass'])) {
